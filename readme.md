@@ -54,7 +54,10 @@ Shows in intellij like an ignored test
  ```
 
 [Tags](https://howtodoinjava.com/junit-5/junit-5-tag-annotation-example/)
- 
+
+Allows to include/exclude specific subsets of your tests.
+
+Important does not run wel with Intellij version 3.1
 ```java
  @Tag("development")
  public class ClassATest
@@ -74,5 +77,3 @@ public class JUnit5Example
 {
 }
 ```
-
-Geen project voor Selenium / niet snel test hebben

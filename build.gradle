@@ -10,7 +10,6 @@ repositories {
 }
 
 dependencies {
-    // https://mvnrepository.com/artifact/org.junit/junit5-api
-    testCompile group: 'org.junit', name: 'junit5-api', version: '5.0.0-ALPHA'
-
+    testCompile("org.junit.jupiter:junit-jupiter-engine:5.0.0-M4")
+    testCompile("org.junit.platform:junit-platform-runner:1.0.0-M4")
 }
